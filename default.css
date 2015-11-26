@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Cantarell;
+    src:         url(cantarell.otf);
+    font-weight: 400;
+}
+
+body {
+    font-family: Cantarell;
+    padding:     0px;
+    margin:      0px;
+    font-size:   1em;
+}
+
+.explain {
+    height:           60px;
+    background-color: #3c7cb5;
+    color:            #FFFFFF;
+    line-height:      60px;
+    margin-bottom:    20px;
+    font-weight:      bold;
+}
+
+code {
+    -moz-border-radius:    5px;
+    -webkit-border-radius: 5px;
+    padding:               5px;
+    background-color:      #333333;
+    color:                 #FFFFFF;
+}
+
+code a {
+    color:                 #FFFFFF;
+    text-decoration:       none;
+}
+
+a {
+    color:                 #333333;
+    font-size:             1em;
+}
+
+table th {
+    text-align:            right;
+    padding-right:         1.2em;
+}
+
+
+.container {
+    width:          800px;
+    margin-left:    auto;
+    margin-right:   auto;
+    padding-bottom: 15px;
+}
+
+
+.width-fixer {
+    padding-left:   15px;
+    padding-right:  15px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width:         100%;
+    }
+}
